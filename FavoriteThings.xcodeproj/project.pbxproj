@@ -10,7 +10,7 @@
 		DEE1BA2C2D09FEDF007B8500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE1BA262D09FEDF007B8500 /* Preview Assets.xcassets */; };
 		DEE1BA2D2D09FEDF007B8500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE1BA282D09FEDF007B8500 /* Assets.xcassets */; };
 		DEE1BA2F2D09FEDF007B8500 /* FavoriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1BA2A2D09FEDF007B8500 /* FavoriteThingsApp.swift */; };
-		DEE1BA332D09FF32007B8500 /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1BA322D09FF2B007B8500 /* Things.swift */; };
+		DEE1BA332D09FF32007B8500 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1BA322D09FF2B007B8500 /* Thing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		DEE1BA262D09FEDF007B8500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEE1BA282D09FEDF007B8500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE1BA2A2D09FEDF007B8500 /* FavoriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsApp.swift; sourceTree = "<group>"; };
-		DEE1BA322D09FF2B007B8500 /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
+		DEE1BA322D09FF2B007B8500 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +69,7 @@
 			children = (
 				DEE1BA2A2D09FEDF007B8500 /* FavoriteThingsApp.swift */,
 				DEE1BA302D09FF07007B8500 /* Model */,
+				DEE1BA342D09FF3C007B8500 /* Views */,
 				DEE1BA272D09FEDF007B8500 /* Preview Content */,
 				DEE1BA282D09FEDF007B8500 /* Assets.xcassets */,
 			);
@@ -78,8 +79,7 @@
 		DEE1BA302D09FF07007B8500 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DEE1BA322D09FF2B007B8500 /* Things.swift */,
-				DEE1BA342D09FF3C007B8500 /* Views */,
+				DEE1BA322D09FF2B007B8500 /* Thing.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE1BA332D09FF32007B8500 /* Things.swift in Sources */,
+				DEE1BA332D09FF32007B8500 /* Thing.swift in Sources */,
 				DEE1BA2F2D09FEDF007B8500 /* FavoriteThingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

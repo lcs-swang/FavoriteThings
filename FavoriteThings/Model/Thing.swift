@@ -14,16 +14,16 @@ struct Thing: Identifiable{
     let image: String = ""
 }
 
-let things = Thing (name: "Bed",description: "My bed is my faovrite plae to sleep and relax")
+let bed = Thing (name: "Bed",description: "My bed is the best place to sleep and relax")
 
-let things2 = Thing (name: "Music",description: "My favorite genre of music is pop and rock")
+let music = Thing (name: "Music",description: "My favorite genre of music is pop and rock")
 
-let things3 = Thing (name: "Family",description: "My family supports me through hard times")
+let family = Thing (name: "Family",description: "My family supports me through hard times")
 
-let things4 = Thing (name: "Friends",description: "My friends gives me happiness")
+let friends = Thing (name: "Friends",description: "My friends gives me happiness")
 
-let things5 = Thing (name: "Food", description: "Food is my faovrite thing, espcially hot pot")
+let food = Thing (name: "Food", description: "Food is my faovrite thing, espcially hot pot")
 
-let things6 = Thing (name: "Neflix",description: "Neflix is my favorite TV show")
+let neflix = Thing (name: "Neflix",description: "Neflix is my favorite TV show")
 
-let myFavoriteThings = [things, things2, things3, things4, things5, things6]
+let myFavoriteThings = [bed, music, family, friends, food, neflix]

@@ -7,9 +7,16 @@
 
 import SwiftUI
 
-//struct ThingsListView: View {
-//    var body: some View {
-//        NavigationStack
-//        List()
-//    }
-//}
+struct FavoriteThingView: View {
+    var body: some View{
+        NavigationStack {
+           List(myFavoriteThings) { thing in
+               Text(thing.description)
+            }
+        }
+    }
+}
+
+#Preview {
+    FavoriteThingView()
+}
