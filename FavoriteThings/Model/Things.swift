@@ -25,3 +25,5 @@ let things4 = Things (name: "Friends",description: "My friends gives me happines
 let things5 = Things (name: "Food", description: "Food is my faovrite thing, espcially hot pot")
 
 let things6 = Things (name: "Neflix",description: "Neflix is my favorite TV show")
+
+let myFavoriteThings = [things, things2, things3, things4, things5, things6]

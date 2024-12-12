@@ -12,7 +12,7 @@ struct ThingsView: View {
     let providedThings: Things
     
     var body: some View{
-        VStack (alignment: .leading){
+        VStack (alignment: .leading) {
             Text (providedThings.name)
                 .font(.largeTitle)
             Text (providedThings.description)
